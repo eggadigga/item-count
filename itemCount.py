@@ -1,7 +1,7 @@
 #!python3
 ## itemCount.py - output number of items repeated
 
-import pyperclip, os, pprint
+import pyperclip, os
 
 itemText = pyperclip.paste().split('\n')
 
